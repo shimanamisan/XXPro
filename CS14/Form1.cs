@@ -33,20 +33,20 @@ namespace CS14
             // テキストボックスに入力された値をint型に変換して変数に格納
             int value = Convert.ToInt32(textBox1.Text);
 
-            //if (value == 10)
-            //{
-            //    MessageBox.Show("10です");
-            //}
+            if (value == 10)
+            {
+                MessageBox.Show("10です");
+            }
 
-            //else if (value == 20)
-            //{
-            //    MessageBox.Show("20です");
-            //}
+            else if (value == 20)
+            {
+                MessageBox.Show("20です");
+            }
 
-            //else
-            //{
-            //    MessageBox.Show("どれでもない");
-            //}
+            else
+            {
+                MessageBox.Show("どれでもない");
+            }
 
             switch (value)
             {
